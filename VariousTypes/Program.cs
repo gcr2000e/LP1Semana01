@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Globalization;
+using System.Text;
 
 namespace VariousTypes
 {
@@ -15,9 +16,11 @@ namespace VariousTypes
         ulong n = 4UL;
         bool a = false;
         bool b = true;
+        char copyrightSymbol = '\u00A9';
 
         private void Main(string[] args)
         {
+           Console.OutputEncoding = Encoding.UTF8;
            Console.WriteLine(num);
            Console.WriteLine(x);
            Console.WriteLine(y);
@@ -27,17 +30,19 @@ namespace VariousTypes
            Console.WriteLine(j);
            Console.WriteLine(k);
            Console.WriteLine(n);
+           Console.WriteLine(copyrightSymbol);
+
 
            if(a == 5 > 3)
            {
               a = true;
-              Console.WriteLine($"a é True");
+              Console.WriteLine("a é True");
            }
 
            if(b == 5 < 3)
            {
               b = false;
-              Console.WriteLine($"b é False");
+              Console.WriteLine("b é False");
            }
         }
     }
