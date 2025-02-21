@@ -14,7 +14,7 @@ namespace ManyStrings
           int ii = 15;
           double xx = 1.23456;
           string m = "Olá mundo";
-          string s = "Um tab\t e um copyright \u03A9";
+          string s = "Um tab\t e um ómega \u03A9";
           string path = "C:\\Users\\Gonçalo\\Desktop";
           string message = "a" + 2;
           string message2 = "abc" + 2;
