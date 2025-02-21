@@ -7,19 +7,21 @@ namespace ManyStrings
 {
     public class Program
     {
-        int x = 2;
-        int ii = 19;
-        double xx = 1.23456;
-        string m = "Olá mundo";
-        string s = "Um tab\t e um copyright \u03A9";
-        string path = "C:\\Users\\Gonçalo\\Desktop";
-        string message = "a" + 2;
-        string message2 = "abc" + 2;
-        string message3;
-        string s1;
-        string s2;
-        private void Main(string[] args)
+        
+        private static void Main(string[] args)
         {
+          int x = 2;
+          int ii = 19;
+          double xx = 1.23456;
+          string m = "Olá mundo";
+          string s = "Um tab\t e um copyright \u03A9";
+          string path = "C:\\Users\\Gonçalo\\Desktop";
+          string message = "a" + 2;
+          string message2 = "abc" + 2;
+          string message3;
+          string s1;
+          string s2;
+          
             Console.OutputEncoding = Encoding.UTF8;
             Console.WriteLine(m);
             Console.WriteLine(s);

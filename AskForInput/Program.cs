@@ -5,9 +5,10 @@ namespace AskForInput
 {
     public class Program
     {
-        float soma;
-        private void Main(string[] args)
+        
+        private static void Main(string[] args)
         {
+            float soma;
             Console.WriteLine("Insira um número inteiro:");
             string str = Console.ReadLine();
             int i = int.Parse(str);
