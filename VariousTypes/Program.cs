@@ -32,19 +32,8 @@ namespace VariousTypes
            Console.WriteLine(k);
            Console.WriteLine(n);
            Console.WriteLine(copyrightSymbol);
-
-
-           if(a == 5 > 3)
-           {
-              a = true;
-              Console.WriteLine("a é True");
-           }
-
-           if(b == 5 < 3)
-           {
-              b = false;
-              Console.WriteLine("b é False");
-           }
+           Console.WriteLine(a);
+           Console.WriteLine(b);
         }
     }
 }
